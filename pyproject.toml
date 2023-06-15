@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "supervisory-control-adapter"
+version = "0.0.1"
+description = "Evaluates predictions related to some operation and applies PLC-like logic to produce a result."
+authors = ["Jeren Browning <jeren.browning@inl.gov>", "Katie Wilsdon <katherine.wilsdon@inl.gov>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-dotenv = "*"
+deep-lynx = "*"
+Flask = "*"
+pandas = "*"
+numpy = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
