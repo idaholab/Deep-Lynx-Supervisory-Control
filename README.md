@@ -1,6 +1,6 @@
 # DeepLynx Supervisory Control
 
-The Deep Lynx Supervisory Control Adapter is a generic adapter that receives machine learning and physics data from DeepLynx, applies process control logic, and may create a control request for the DAQ/HMI to consume. It updates DeepLynx with the details of any control request created. 
+The DeepLynx Supervisory Control Adapter is a generic adapter that receives machine learning and physics data from DeepLynx, applies process control logic, and may create a control request for the DAQ/HMI to consume. It updates DeepLynx with the details of any control request created. 
 
 This project is a [DeepLynx](https://github.com/idaholab/Deep-Lynx) adapter that utilizes the DeepLynx event system.
 
